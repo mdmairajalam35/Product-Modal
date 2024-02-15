@@ -1,5 +1,6 @@
 import { Price } from "./Price";
 import { Stock } from "./Stock";
+import { WishlistBtn } from "./WishlistBtn";
 
 
 function Card() {
@@ -44,6 +45,7 @@ function Card() {
           <Stock/>
 
           {/* Cart and Wishlit */}
+          <WishlistBtn/>
         </div>
       </div>
       ;
